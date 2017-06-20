@@ -1,0 +1,18 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.benhero.design.module.bg.ModuleBgFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/common_margin"
+        android:gravity="center"
+        android:text="@string/module_bg_text"
+        android:textColor="#6CD1CC"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

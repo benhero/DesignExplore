@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/common_margin"
+    android:paddingRight="@dimen/common_margin"
+    android:paddingTop="24dp">
+
+    <RelativeLayout
+        android:id="@+id/mvp_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mvp_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:minHeight="16dp"
+            android:minWidth="16dp"
+            android:text="1"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="12dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/mvp_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/mvp_index"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mvp_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mvp_title_layout"
+        android:layout_marginBottom="@dimen/common_margin"
+        android:layout_marginLeft="22dp"
+        android:textColor="@android:color/secondary_text_light"
+        android:textSize="14dp"/>
+
+
+    <View
+        android:id="@+id/mvp_divider"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_alignLeft="@id/mvp_desc"
+        android:layout_below="@id/mvp_desc"
+        android:background="#FFE6E9ED"/>
+</RelativeLayout>

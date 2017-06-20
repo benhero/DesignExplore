@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/mvp_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="@dimen/common_margin"
+        android:gravity="center"
+        android:text="Upgrade"
+        android:textSize="16dp"/>
+
+    <ListView
+        android:id="@+id/mvp_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mvp_btn"
+        android:clickable="false"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"/>
+
+</RelativeLayout>

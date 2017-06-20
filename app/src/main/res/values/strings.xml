@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DesignExplore</string>
+
+    <!-- MVP -->
+    <!-- A -->
+    <string name="mvp_a_title">MVP A</string>
+    <string name="mvp_a_upgrade_btn">Upgrade for A</string>
+    <string name="mvp_a_factor_title_1">A Title 1</string>
+    <string name="mvp_a_factor_desc_1">A Desc 1</string>
+    <string name="mvp_a_factor_title_2">A Title 2</string>
+    <string name="mvp_a_factor_desc_2">A Desc 2</string>
+    <!-- B -->
+    <string name="mvp_b_title">MVP B</string>
+    <string name="mvp_b_upgrade_btn">Upgrade for B</string>
+    <string name="mvp_b_factor_title_1">B Title 1</string>
+    <string name="mvp_b_factor_desc_1">B Desc 1</string>
+    <string name="mvp_b_factor_title_2">B Title 2</string>
+    <string name="mvp_b_factor_desc_2">B Desc 2</string>
+    <!-- C -->
+    <string name="mvp_c_title">MVP C</string>
+    <string name="mvp_c_upgrade_btn">Upgrade for C</string>
+    <string name="mvp_c_factor_title_1">C Title 1</string>
+    <string name="mvp_c_factor_desc_1">C Desc 1</string>
+    <string name="mvp_c_factor_title_2">C Title 2</string>
+    <string name="mvp_c_factor_desc_2">C Desc 2</string>
+    <string name="mvp_c_factor_title_3">C Title 3</string>
+    <string name="mvp_c_factor_desc_3">C Desc 3</string>
+    <!-- D -->
+    <string name="mvp_d_title">MVP D</string>
+    <string name="mvp_d_upgrade_btn">Upgrade for D</string>
+    <string name="mvp_d_factor_title_1">D Title 1</string>
+    <string name="mvp_d_factor_desc_1">D Desc 1</string>
+    <string name="mvp_d_factor_title_2">D Title 2</string>
+    <string name="mvp_d_factor_desc_2">D Desc 2</string>
+
+    <string name="module_bg_text">Android 7.0 Nougat introduces a variety of new features and capabilities for users and developers. This document highlights what\'s new for developers. Make sure check out the Android 7.0 behavior changes to learn about areas where platform changes may affect your apps. To learn more about the consumer features of Android 7.0, visit www.android.com.</string>
+
+</resources>
